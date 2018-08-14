@@ -3,7 +3,7 @@ import AppBar from '@material-ui/core/AppBar'
 import Grid from '@material-ui/core/Grid'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
-import ReportTable from './components/ReportTable'
+import ReportTableContainer from './containers/ReportTableContainer'
 
 class App extends Component {
   render() {
@@ -21,7 +21,7 @@ class App extends Component {
           </Grid>
 
           <Grid item>
-            <ReportTable />
+            <ReportTableContainer />
           </Grid>
         </Grid>
       </div>

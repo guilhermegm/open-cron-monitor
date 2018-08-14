@@ -14,16 +14,6 @@ const CentralizedPaper = styled.div`
 `
 
 class ReportTable extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { reports: [] }
-  }
-
-  async componentDidMount() {
-    const response = await axios.get('/api/reports')
-    this.setState({ reports: response.data })
-  }
-
   render() {
     return (
       <CentralizedPaper>
@@ -37,7 +27,7 @@ class ReportTable extends Component {
               </TableRow>
             </TableHead>
             <TableBody>
-              {this.state.reports.map(report => (
+              {this.props.reports.map(report => (
                 <TableRow key={report.id}>
                   <TableCell>{report.success ? 'Ok' : 'Error'}</TableCell>
                   <TableCell>{report.name}</TableCell>
