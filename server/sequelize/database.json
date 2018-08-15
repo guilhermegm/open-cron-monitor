@@ -1,0 +1,11 @@
+{
+  "development": {
+    "username": "open-cron-monitor",
+    "password": "open-cron-monitor",
+    "database": "open-cron-monitor",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {},
+  "production": {}
+}
