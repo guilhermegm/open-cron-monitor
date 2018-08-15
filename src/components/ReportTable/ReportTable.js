@@ -28,7 +28,7 @@ class ReportTable extends Component {
                 <TableRow key={report.id}>
                   <TableCell>{report.success ? 'Ok' : 'Error'}</TableCell>
                   <TableCell><Link to={`/report/${report.id}`}>{report.name}</Link></TableCell>
-                  <TableCell>{report.createdAt}</TableCell>
+                  <TableCell>{report.startedAt}</TableCell>
                   <TableCell>{report.endedAt}</TableCell>
                 </TableRow>
               ))}

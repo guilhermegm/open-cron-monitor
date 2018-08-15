@@ -16,7 +16,14 @@ Enzyme.configure({ adapter: new Adapter() })
 describe('ReportTable', () => {
   it('should render properly', () => {
     const reports = [
-      { id: 1, success: true, name: 'name-1', createdAt: 'createdAt-1', endedAt: 'endedAt-1' },
+      {
+        id: 1,
+        success: true,
+        name: 'name-1',
+        createdAt: 'createdAt-1',
+        endedAt: 'endedAt-1',
+        startedAt: 'startedAt-1',
+      },
     ]
     const wrapper = shallow(<ReportTable reports={reports} />)
 

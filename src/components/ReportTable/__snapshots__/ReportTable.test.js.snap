@@ -11,6 +11,7 @@ ShallowWrapper {
               "endedAt": "endedAt-1",
               "id": 1,
               "name": "name-1",
+              "startedAt": "startedAt-1",
               "success": true,
             },
           ]
@@ -60,7 +61,7 @@ ShallowWrapper {
                                         </Link>
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell)>
-                                        createdAt-1
+                                        startedAt-1
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell)>
                                         endedAt-1
@@ -107,7 +108,7 @@ ShallowWrapper {
                                         </Link>
                               </WithStyles(TableCell)>
                               <WithStyles(TableCell)>
-                                        createdAt-1
+                                        startedAt-1
                               </WithStyles(TableCell)>
                               <WithStyles(TableCell)>
                                         endedAt-1
@@ -153,7 +154,7 @@ ShallowWrapper {
                                           </Link>
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell)>
-                                          createdAt-1
+                                          startedAt-1
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell)>
                                           endedAt-1
@@ -275,7 +276,7 @@ ShallowWrapper {
                                     </Link>
                   </WithStyles(TableCell)>
                   <WithStyles(TableCell)>
-                                    createdAt-1
+                                    startedAt-1
                   </WithStyles(TableCell)>
                   <WithStyles(TableCell)>
                                     endedAt-1
@@ -303,7 +304,7 @@ ShallowWrapper {
                       </Link>
 </WithStyles(TableCell)>,
                     <WithStyles(TableCell)>
-                      createdAt-1
+                      startedAt-1
 </WithStyles(TableCell)>,
                     <WithStyles(TableCell)>
                       endedAt-1
@@ -356,10 +357,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
-                      "children": "createdAt-1",
+                      "children": "startedAt-1",
                     },
                     "ref": null,
-                    "rendered": "createdAt-1",
+                    "rendered": "startedAt-1",
                     "type": [Function],
                   },
                   Object {
@@ -424,7 +425,7 @@ ShallowWrapper {
                                                   </Link>
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell)>
-                                                  createdAt-1
+                                                  startedAt-1
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell)>
                                                   endedAt-1
@@ -471,7 +472,7 @@ ShallowWrapper {
                                                 </Link>
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell)>
-                                                createdAt-1
+                                                startedAt-1
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell)>
                                                 endedAt-1
@@ -517,7 +518,7 @@ ShallowWrapper {
                                                 </Link>
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell)>
-                                                createdAt-1
+                                                startedAt-1
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell)>
                                                 endedAt-1
@@ -639,7 +640,7 @@ ShallowWrapper {
                                         </Link>
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell)>
-                                        createdAt-1
+                                        startedAt-1
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell)>
                                         endedAt-1
@@ -667,7 +668,7 @@ ShallowWrapper {
                         </Link>
 </WithStyles(TableCell)>,
                       <WithStyles(TableCell)>
-                        createdAt-1
+                        startedAt-1
 </WithStyles(TableCell)>,
                       <WithStyles(TableCell)>
                         endedAt-1
@@ -720,10 +721,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "class",
                       "props": Object {
-                        "children": "createdAt-1",
+                        "children": "startedAt-1",
                       },
                       "ref": null,
-                      "rendered": "createdAt-1",
+                      "rendered": "startedAt-1",
                       "type": [Function],
                     },
                     Object {
