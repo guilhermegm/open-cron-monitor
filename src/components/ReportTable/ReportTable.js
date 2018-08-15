@@ -19,7 +19,8 @@ class ReportTable extends Component {
               <TableRow>
                 <TableCell>Status</TableCell>
                 <TableCell>Name</TableCell>
-                <TableCell>Date</TableCell>
+                <TableCell>Started at</TableCell>
+                <TableCell>Ended at</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -28,6 +29,7 @@ class ReportTable extends Component {
                   <TableCell>{report.success ? 'Ok' : 'Error'}</TableCell>
                   <TableCell><Link to={`/report/${report.id}`}>{report.name}</Link></TableCell>
                   <TableCell>{report.createdAt}</TableCell>
+                  <TableCell>{report.endedAt}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
