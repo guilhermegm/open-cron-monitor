@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import CentralizedPaper from './CentralizedPaper'
+import CentralizedPaper from '../CentralizedPaper'
+import { Link } from 'react-router-dom'
 import Paper from '@material-ui/core/Paper'
 import Table from '@material-ui/core/Table'
 import TableBody from '@material-ui/core/TableBody'
