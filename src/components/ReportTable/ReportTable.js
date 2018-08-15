@@ -26,7 +26,7 @@ class ReportTable extends Component {
               {this.props.reports.map(report => (
                 <TableRow key={report.id}>
                   <TableCell>{report.success ? 'Ok' : 'Error'}</TableCell>
-                  <TableCell>{report.name}</TableCell>
+                  <TableCell><Link to={`/report/${report.id}`}>{report.name}</Link></TableCell>
                   <TableCell>{report.createdAt}</TableCell>
                 </TableRow>
               ))}
