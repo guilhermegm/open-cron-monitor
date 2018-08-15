@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import ReportTableContainer from './containers/ReportTableContainer'
+import ReportDetailContainer from './containers/ReportDetailContainer'
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
 
           <Grid item>
             <Route exact path="/" component={ReportTableContainer} />
+            <Route exact path="/report/:reportId" component={ReportDetailContainer} />
           </Grid>
         </Grid>
       </Router>
