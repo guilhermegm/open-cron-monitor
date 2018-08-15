@@ -32,8 +32,12 @@ class ReportDetail extends Component {
               </Typography>
             </Grid>
             <Grid item>
-              <Typography>Created at</Typography>
+              <Typography>Started at</Typography>
               <Typography variant="headline">{this.props.report.createdAt}</Typography>
+            </Grid>
+            <Grid item>
+              <Typography>Ended at</Typography>
+              <Typography variant="headline">{this.props.report.endedAt}</Typography>
             </Grid>
             <Grid item>
               <Typography>Log</Typography>

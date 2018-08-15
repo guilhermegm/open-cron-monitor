@@ -66,13 +66,23 @@ ShallowWrapper {
                         item={true}
                 >
                         <WithStyles(Typography)>
-                                Created at
+                                Started at
                         </WithStyles(Typography)>
                         <WithStyles(Typography)
                                 variant="headline"
                         >
                                 createdAt-1
                         </WithStyles(Typography)>
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                        item={true}
+                >
+                        <WithStyles(Typography)>
+                                Ended at
+                        </WithStyles(Typography)>
+                        <WithStyles(Typography)
+                                variant="headline"
+                        />
                 </WithStyles(Grid)>
                 <WithStyles(Grid)
                         item={true}
@@ -126,13 +136,23 @@ ShallowWrapper {
                     item={true}
           >
                     <WithStyles(Typography)>
-                              Created at
+                              Started at
                     </WithStyles(Typography)>
                     <WithStyles(Typography)
                               variant="headline"
                     >
                               createdAt-1
                     </WithStyles(Typography)>
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+                    item={true}
+          >
+                    <WithStyles(Typography)>
+                              Ended at
+                    </WithStyles(Typography)>
+                    <WithStyles(Typography)
+                              variant="headline"
+                    />
           </WithStyles(Grid)>
           <WithStyles(Grid)
                     item={true}
@@ -182,13 +202,23 @@ ShallowWrapper {
               item={true}
 >
               <WithStyles(Typography)>
-                            Created at
+                            Started at
               </WithStyles(Typography)>
               <WithStyles(Typography)
                             variant="headline"
               >
                             createdAt-1
               </WithStyles(Typography)>
+</WithStyles(Grid)>,
+            <WithStyles(Grid)
+              item={true}
+>
+              <WithStyles(Typography)>
+                            Ended at
+              </WithStyles(Typography)>
+              <WithStyles(Typography)
+                            variant="headline"
+              />
 </WithStyles(Grid)>,
             <WithStyles(Grid)
               item={true}
@@ -304,7 +334,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <WithStyles(Typography)>
-                  Created at
+                  Started at
 </WithStyles(Typography)>,
                 <WithStyles(Typography)
                   variant="headline"
@@ -321,10 +351,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": "Created at",
+                  "children": "Started at",
                 },
                 "ref": null,
-                "rendered": "Created at",
+                "rendered": "Started at",
                 "type": [Function],
               },
               Object {
@@ -337,6 +367,49 @@ ShallowWrapper {
                 },
                 "ref": null,
                 "rendered": "createdAt-1",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Typography)>
+                  Ended at
+</WithStyles(Typography)>,
+                <WithStyles(Typography)
+                  variant="headline"
+/>,
+              ],
+              "item": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Ended at",
+                },
+                "ref": null,
+                "rendered": "Ended at",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": undefined,
+                  "variant": "headline",
+                },
+                "ref": null,
+                "rendered": null,
                 "type": [Function],
               },
             ],
@@ -434,13 +507,23 @@ ShallowWrapper {
                               item={true}
                     >
                               <WithStyles(Typography)>
-                                        Created at
+                                        Started at
                               </WithStyles(Typography)>
                               <WithStyles(Typography)
                                         variant="headline"
                               >
                                         createdAt-1
                               </WithStyles(Typography)>
+                    </WithStyles(Grid)>
+                    <WithStyles(Grid)
+                              item={true}
+                    >
+                              <WithStyles(Typography)>
+                                        Ended at
+                              </WithStyles(Typography)>
+                              <WithStyles(Typography)
+                                        variant="headline"
+                              />
                     </WithStyles(Grid)>
                     <WithStyles(Grid)
                               item={true}
@@ -494,13 +577,23 @@ ShallowWrapper {
                         item={true}
             >
                         <WithStyles(Typography)>
-                                    Created at
+                                    Started at
                         </WithStyles(Typography)>
                         <WithStyles(Typography)
                                     variant="headline"
                         >
                                     createdAt-1
                         </WithStyles(Typography)>
+            </WithStyles(Grid)>
+            <WithStyles(Grid)
+                        item={true}
+            >
+                        <WithStyles(Typography)>
+                                    Ended at
+                        </WithStyles(Typography)>
+                        <WithStyles(Typography)
+                                    variant="headline"
+                        />
             </WithStyles(Grid)>
             <WithStyles(Grid)
                         item={true}
@@ -550,13 +643,23 @@ ShallowWrapper {
                 item={true}
 >
                 <WithStyles(Typography)>
-                                Created at
+                                Started at
                 </WithStyles(Typography)>
                 <WithStyles(Typography)
                                 variant="headline"
                 >
                                 createdAt-1
                 </WithStyles(Typography)>
+</WithStyles(Grid)>,
+              <WithStyles(Grid)
+                item={true}
+>
+                <WithStyles(Typography)>
+                                Ended at
+                </WithStyles(Typography)>
+                <WithStyles(Typography)
+                                variant="headline"
+                />
 </WithStyles(Grid)>,
               <WithStyles(Grid)
                 item={true}
@@ -672,7 +775,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <WithStyles(Typography)>
-                    Created at
+                    Started at
 </WithStyles(Typography)>,
                   <WithStyles(Typography)
                     variant="headline"
@@ -689,10 +792,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "children": "Created at",
+                    "children": "Started at",
                   },
                   "ref": null,
-                  "rendered": "Created at",
+                  "rendered": "Started at",
                   "type": [Function],
                 },
                 Object {
@@ -705,6 +808,49 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": "createdAt-1",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Typography)>
+                    Ended at
+</WithStyles(Typography)>,
+                  <WithStyles(Typography)
+                    variant="headline"
+/>,
+                ],
+                "item": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Ended at",
+                  },
+                  "ref": null,
+                  "rendered": "Ended at",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": undefined,
+                    "variant": "headline",
+                  },
+                  "ref": null,
+                  "rendered": null,
                   "type": [Function],
                 },
               ],
