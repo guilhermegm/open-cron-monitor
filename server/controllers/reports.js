@@ -4,9 +4,12 @@ const create = async (ctx, { Report }) => {
   const data = await Joi.validate(
     ctx.request.body,
     Joi.object().keys({
+      endedAt: Joi.date()
+        .iso()
+        .required(),
+      log: Joi.string(),
       name: Joi.string().required(),
       success: Joi.boolean().required(),
-      log: Joi.string(),
     }),
   )
 
