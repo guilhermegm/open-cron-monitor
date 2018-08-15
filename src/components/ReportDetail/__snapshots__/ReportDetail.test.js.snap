@@ -14,6 +14,7 @@ ShallowWrapper {
             "createdAt": "createdAt-1",
             "id": 1,
             "name": "name-1",
+            "startedAt": "startedAt-1",
             "success": true,
           }
     }
@@ -71,7 +72,7 @@ ShallowWrapper {
                         <WithStyles(Typography)
                                 variant="headline"
                         >
-                                createdAt-1
+                                startedAt-1
                         </WithStyles(Typography)>
                 </WithStyles(Grid)>
                 <WithStyles(Grid)
@@ -141,7 +142,7 @@ ShallowWrapper {
                     <WithStyles(Typography)
                               variant="headline"
                     >
-                              createdAt-1
+                              startedAt-1
                     </WithStyles(Typography)>
           </WithStyles(Grid)>
           <WithStyles(Grid)
@@ -207,7 +208,7 @@ ShallowWrapper {
               <WithStyles(Typography)
                             variant="headline"
               >
-                            createdAt-1
+                            startedAt-1
               </WithStyles(Typography)>
 </WithStyles(Grid)>,
             <WithStyles(Grid)
@@ -339,7 +340,7 @@ ShallowWrapper {
                 <WithStyles(Typography)
                   variant="headline"
 >
-                  createdAt-1
+                  startedAt-1
 </WithStyles(Typography)>,
               ],
               "item": true,
@@ -362,11 +363,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": "createdAt-1",
+                  "children": "startedAt-1",
                   "variant": "headline",
                 },
                 "ref": null,
-                "rendered": "createdAt-1",
+                "rendered": "startedAt-1",
                 "type": [Function],
               },
             ],
@@ -512,7 +513,7 @@ ShallowWrapper {
                               <WithStyles(Typography)
                                         variant="headline"
                               >
-                                        createdAt-1
+                                        startedAt-1
                               </WithStyles(Typography)>
                     </WithStyles(Grid)>
                     <WithStyles(Grid)
@@ -582,7 +583,7 @@ ShallowWrapper {
                         <WithStyles(Typography)
                                     variant="headline"
                         >
-                                    createdAt-1
+                                    startedAt-1
                         </WithStyles(Typography)>
             </WithStyles(Grid)>
             <WithStyles(Grid)
@@ -648,7 +649,7 @@ ShallowWrapper {
                 <WithStyles(Typography)
                                 variant="headline"
                 >
-                                createdAt-1
+                                startedAt-1
                 </WithStyles(Typography)>
 </WithStyles(Grid)>,
               <WithStyles(Grid)
@@ -780,7 +781,7 @@ ShallowWrapper {
                   <WithStyles(Typography)
                     variant="headline"
 >
-                    createdAt-1
+                    startedAt-1
 </WithStyles(Typography)>,
                 ],
                 "item": true,
@@ -803,11 +804,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "children": "createdAt-1",
+                    "children": "startedAt-1",
                     "variant": "headline",
                   },
                   "ref": null,
-                  "rendered": "createdAt-1",
+                  "rendered": "startedAt-1",
                   "type": [Function],
                 },
               ],
