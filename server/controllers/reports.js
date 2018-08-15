@@ -9,6 +9,9 @@ const create = async (ctx, { Report }) => {
         .required(),
       log: Joi.string(),
       name: Joi.string().required(),
+      startedAt: Joi.date()
+        .iso()
+        .required(),
       success: Joi.boolean().required(),
     }),
   )
