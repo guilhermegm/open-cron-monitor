@@ -1,12 +1,22 @@
-const axios = require('axios')
-const express = require('express')
-const app = express()
+const bodyParser = require('koa-bodyparser')
+const Koa = require('koa')
+const Router = require('koa-router')
 
-app.get('/api/reports', async (req, res) => {
-  const response = await axios.get('http://142.93.114.32:3000/reports')
-  res.json(response.data)
-})
+const Report = require('./models/Report')
+const reports = require('./controllers/reports')
 
-app.listen(2700, () => {
-  console.log('Example app listening on port 3000!')
-})
+const app = new Koa()
+const router = new Router()
+
+const models = {
+  Report,
+}
+
+router.post('/api/reports', async (ctx, next) => reports.create(ctx, models))
+router.get('/api/reports', async (ctx, next) => reports.get(ctx, models))
+
+app.use(bodyParser())
+app.use(router.routes())
+app.use(router.allowedMethods())
+
+app.listen(2700)
