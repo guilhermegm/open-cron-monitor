@@ -17,7 +17,19 @@ const get = async (ctx, { Report }) => {
   ctx.body = await Report.findAll({ order: [['createdAt', 'DESC']] })
 }
 
+const getById = async (ctx, { Report }) => {
+  const data = await Joi.validate(
+    ctx.params,
+    Joi.object().keys({
+      reportId: Joi.string().required(),
+    }),
+  )
+
+  ctx.body = await Report.findById(data.reportId)
+}
+
 module.exports = {
   create,
   get,
+  getById,
 }
